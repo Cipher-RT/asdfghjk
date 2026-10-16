@@ -64,10 +64,10 @@ def ReverseList(Numbers):
             break
     Nums=[]
     for i in range(TopOfStack,-1,-1):
-        Nums.append(Stack[i])
+        Nums.append(Pop())
     return Nums
     pass
-
+print(ReverseList([1, 2, 3]))
 # Exercise 3
 def Balanced(Expression):
     # Write your code here
