@@ -67,7 +67,6 @@ def ReverseList(Numbers):
         Nums.append(Pop())
     return Nums
     pass
-print(ReverseList([1, 2, 3]))
 # Exercise 3
 def Balanced(Expression):
     # Write your code here
